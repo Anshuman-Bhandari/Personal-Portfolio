@@ -178,7 +178,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
+            <button class="navbar-link" data-nav-link>Projects</button>
           </li>
 
           <li class="navbar-item">
@@ -490,8 +490,13 @@
 
       <article class="resume" data-page="resume">
 
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
+        <header style="display: flex; gap: 20px;">
+          <h2 class="h2 article-title">Resume : </h2>
+          <div style="display: flex; align-items: center; justify-content: center; gap: 5px; border: 1px solid rgb(255, 153, 0); 
+          padding: 3px; border-radius: 10px; height: fit-content;" class="DownloadBtn">
+            <h2> <a onclick="downloadPDF(); return false;" href="" class="h2 title-wrapper" style="color: rgb(228, 167, 54);">Download</a> </h2>
+            <img style="width: 30px; height: 30px; gap: 5px;" src="./assets/images/download.png" alt="Download">
+          </div>
         </header>
 
         <section class="timeline">
@@ -656,10 +661,10 @@
         - #PROJECTS
       -->
 
-      <article class="portfolio" data-page="portfolio">
+      <article class="portfolio" data-page="projects">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Projects</h2>
         </header>
 
         <section class="projects">

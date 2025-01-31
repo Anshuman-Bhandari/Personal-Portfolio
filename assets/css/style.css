@@ -767,6 +767,12 @@ main {
 .article-title { margin-bottom: 30px; }
 
 
+.DownloadBtn:hover {
+  transition: all ease 0.5s;
+  box-shadow: 2px 2px 5px rgb(255, 153, 0);
+}
+
+
 /**
  * education and experience 
  */
