@@ -160,7 +160,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 function downloadPDF() {
     // Replace YOUR_GOOGLE_DRIVE_FILE_ID with the actual file ID
-    const fileId = "1foR2VTYDT2Z0LobvLiKcT5ijSjzXkzd0";
+    const fileId = "1IfHcrGNQPG8eB6vAv3HRRwRD2Kfrmh4u";
     const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
 
     // Create an invisible anchor tag and trigger the download
